@@ -1,0 +1,125 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #5114f8;
+}
+
+.card {
+  margin: 0 auto;
+  margin-top: 5rem;
+  width: 60vw;
+  background-color: #ffffff;
+  padding: 3rem;
+  border-radius: 8px;
+}
+
+.card h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  padding: 0.6rem 0.8rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.btn-edit {
+  background-color: rgb(246, 172, 14);
+  color: white;
+}
+.btn-delete {
+  background-color: rgb(255, 25, 25);
+  color: white;
+  margin-right: 10px;
+}
+.btn-add {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #5114f8;
+  color: white;
+  margin-bottom: 1rem;
+}
+.btn-add-form {
+  background-color: #5114f8;
+  color: white;
+  width: 100%;
+}
+.btn-back-form {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #cacaca;
+  color: white;
+  text-align: center;
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+  width: 100%;
+}
+
+.btn[disabled] {
+  background-color: gray;
+}
+
+table.customTable {
+  width: 100%;
+  background-color: #ffffff;
+  border-collapse: collapse;
+  border-width: 2px;
+  border-color: #5114f8;
+  border-style: solid;
+  color: #ffffff;
+}
+
+table.customTable td,
+table.customTable th {
+  border-width: 2px;
+  border-color: #5114f8;
+  border-style: solid;
+  padding: 0.5rem 0.4rem;
+}
+
+table.customTable td {
+  color: black;
+}
+
+table.customTable thead {
+  background-color: #5114f8;
+  text-align: center;
+}
+
+td.no,
+.action {
+  text-align: center;
+}
+
+.col {
+  display: flex;
+  gap: 1rem;
+}
+
+.form-group {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  font-size: 0.9rem;
+  margin-bottom: 0.4rem;
+  display: inline-block;
+}
+
+.input {
+  width: 100%;
+  padding: 0.4rem 0.2rem;
+  outline: none;
+}
+
+.error-message {
+  color: red;
+}
